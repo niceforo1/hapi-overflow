@@ -1,0 +1,22 @@
+{
+  "name": "hapi-overflow",
+  "version": "1.0.0",
+  "description": "Un sitio parecido a Stack Overflow",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabino Santana",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^17.6.0",
+    "inert": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "standard": "^12.0.1"
+  }
+}
