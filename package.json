@@ -4,7 +4,7 @@
   "description": "Un sitio parecido a Stack Overflow",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon",
+    "dev": "nodemon --ext js,hbs",
     "lint": "standard",
     "lint-fix": "standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,14 @@
   "author": "Gabino Santana",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^3.0.1",
+    "boom": "^7.2.0",
+    "firebase-admin": "^6.0.0",
+    "handlebars": "^4.0.12",
     "hapi": "^17.6.0",
-    "inert": "^5.1.0"
+    "inert": "^5.1.0",
+    "joi": "^13.7.0",
+    "vision": "^5.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.4",
